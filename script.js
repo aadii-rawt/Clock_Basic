@@ -1,5 +1,6 @@
 setInterval( ()=>{
     let dte = new Date();
+    const date = new Date().getTime()
 
     let hr = dte.getHours();
     let min = dte.getMinutes();
